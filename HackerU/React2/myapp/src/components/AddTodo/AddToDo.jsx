@@ -10,7 +10,6 @@ export default function AddToDo({addToDo}) {
         title.value = '';
         description.value = '';
     }
-
     return (
     <form className = {s.form} onSubmit={submit}>
         <label className={s.field}>
